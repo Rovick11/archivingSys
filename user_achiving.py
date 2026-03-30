@@ -23,7 +23,8 @@ class TTKArchivingSystem:
         os.makedirs(self.data_dir, exist_ok=True)
         os.makedirs(self.archives_dir, exist_ok=True)
 
-        for folder in ['Resolutions', 'Ordinances', 'Minutes', 'Certifications', 'Memoranda']:
+        # Only Resolutions and Ordinances folders remain
+        for folder in ['Resolutions', 'Ordinances']:
             os.makedirs(os.path.join(self.archives_dir, folder), exist_ok=True)
 
         self.load_data()
@@ -39,7 +40,7 @@ class TTKArchivingSystem:
                 messagebox.showerror("Error", "Failed to load documents.json. File may be corrupted.")
                 self.documents = []
         else:
-            # Add 3 sample documents per category
+            # Add 3 sample documents per category (only Resolutions and Ordinances)
             self.documents = []
             
             # Resolutions (3 files)
@@ -68,50 +69,8 @@ class TTKArchivingSystem:
                  "uploaded_at": "2024-03-18 15:45:00", "description": "Solid Waste Management"}
             ]
             
-            # Minutes (3 files)
-            minutes = [
-                {"id": 7, "filename": "Minutes Sept 2024.docx", "file_type": "docx", "category": "Minutes", 
-                 "file_path": "", "file_size": 51200, "tags": "regular session", 
-                 "uploaded_at": "2024-09-30 16:00:00", "description": "Regular Session Minutes - September"},
-                {"id": 8, "filename": "Minutes Oct 2024.docx", "file_type": "docx", "category": "Minutes", 
-                 "file_path": "", "file_size": 48500, "tags": "special session", 
-                 "uploaded_at": "2024-10-28 14:30:00", "description": "Special Session Minutes - October"},
-                {"id": 9, "filename": "Minutes Nov 2024.docx", "file_type": "docx", "category": "Minutes", 
-                 "file_path": "", "file_size": 62300, "tags": "budget hearing", 
-                 "uploaded_at": "2024-11-25 10:15:00", "description": "Budget Hearing Minutes"}
-            ]
-            
-            # Certifications (3 files)
-            certifications = [
-                {"id": 10, "filename": "Certification_2024-001.pdf", "file_type": "pdf", "category": "Certifications", 
-                 "file_path": "", "file_size": 34500, "tags": "employment, service", 
-                 "uploaded_at": "2024-01-20 09:00:00", "description": "Employment Certification"},
-                {"id": 11, "filename": "Certification_2024-015.pdf", "file_type": "pdf", "category": "Certifications", 
-                 "file_path": "", "file_size": 28900, "tags": "good moral", 
-                 "uploaded_at": "2024-03-05 11:30:00", "description": "Good Moral Character"},
-                {"id": 12, "filename": "Certification_2024-028.pdf", "file_type": "pdf", "category": "Certifications", 
-                 "file_path": "", "file_size": 41200, "tags": "residency", 
-                 "uploaded_at": "2024-05-12 14:20:00", "description": "Residency Certification"}
-            ]
-            
-            # Memoranda (3 files)
-            memoranda = [
-                {"id": 13, "filename": "Memorandum_2024-001.pdf", "file_type": "pdf", "category": "Memoranda", 
-                 "file_path": "", "file_size": 56700, "tags": "meeting, schedule", 
-                 "uploaded_at": "2024-02-01 08:30:00", "description": "Regular Meeting Schedule"},
-                {"id": 14, "filename": "Memorandum_2024-010.pdf", "file_type": "pdf", "category": "Memoranda", 
-                 "file_path": "", "file_size": 48900, "tags": "deadline, submission", 
-                 "uploaded_at": "2024-04-18 10:45:00", "description": "Report Submission Deadline"},
-                {"id": 15, "filename": "Memorandum_2024-018.pdf", "file_type": "pdf", "category": "Memoranda", 
-                 "file_path": "", "file_size": 72300, "tags": "seminar, training", 
-                 "uploaded_at": "2024-06-22 13:15:00", "description": "Training Seminar"}
-            ]
-            
             self.documents.extend(resolutions)
             self.documents.extend(ordinances)
-            self.documents.extend(minutes)
-            self.documents.extend(certifications)
-            self.documents.extend(memoranda)
             
             self.save_data()
 
@@ -227,7 +186,8 @@ class TTKArchivingSystem:
 
         tk.Frame(left_frame, height=2, bg='#3498db').pack(fill=tk.X, padx=15)
 
-        self.categories = ['Resolutions', 'Ordinances', 'Minutes', 'Certifications', 'Memoranda']
+        # Only Resolutions and Ordinances categories remain
+        self.categories = ['Resolutions', 'Ordinances']
 
         for cat in self.categories:
             btn_frame = tk.Frame(left_frame, bg='#f8f9fa')
