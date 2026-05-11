@@ -1,1 +1,112 @@
-[]
+[
+  {
+    "id": 1,
+    "filename": "Resolution_No_2024_001.pdf",
+    "file_type": "pdf",
+    "category": "Resolutions",
+    "file_path": "C:\\Users\\Jhosua\\SBARCHIVING_SYSTEM\\archives\\Resolutions\\Resolution_No_2024_001.pdf",
+    "file_size": 1,
+    "tags": "general",
+    "uploaded_at": "2026-05-04 14:44:19",
+    "description": "Resolution Document"
+  },
+  {
+    "id": 2,
+    "filename": "Resolution_No_2024_025.pdf",
+    "file_type": "pdf",
+    "category": "Resolutions",
+    "file_path": "C:\\Users\\Jhosua\\SBARCHIVING_SYSTEM\\archives\\Resolutions\\Resolution_No_2024_025.pdf",
+    "file_size": 1,
+    "tags": "general",
+    "uploaded_at": "2026-05-04 14:44:19",
+    "description": "Resolution Document"
+  },
+  {
+    "id": 3,
+    "filename": "Resolution_No_2024_050.pdf",
+    "file_type": "pdf",
+    "category": "Resolutions",
+    "file_path": "C:\\Users\\Jhosua\\SBARCHIVING_SYSTEM\\archives\\Resolutions\\Resolution_No_2024_050.pdf",
+    "file_size": 1,
+    "tags": "general",
+    "uploaded_at": "2026-05-04 14:44:19",
+    "description": "Resolution Document"
+  },
+  {
+    "id": 4,
+    "filename": "Resolution_No_2024_075.pdf",
+    "file_type": "pdf",
+    "category": "Resolutions",
+    "file_path": "C:\\Users\\Jhosua\\SBARCHIVING_SYSTEM\\archives\\Resolutions\\Resolution_No_2024_075.pdf",
+    "file_size": 1,
+    "tags": "general",
+    "uploaded_at": "2026-05-04 14:44:19",
+    "description": "Resolution Document"
+  },
+  {
+    "id": 5,
+    "filename": "Resolution_No_2024_092.pdf",
+    "file_type": "pdf",
+    "category": "Resolutions",
+    "file_path": "C:\\Users\\Jhosua\\SBARCHIVING_SYSTEM\\archives\\Resolutions\\Resolution_No_2024_092.pdf",
+    "file_size": 1,
+    "tags": "general",
+    "uploaded_at": "2026-05-04 14:44:19",
+    "description": "Resolution Document"
+  },
+  {
+    "id": 6,
+    "filename": "Ordinance_No_2024_005.pdf",
+    "file_type": "pdf",
+    "category": "Ordinances",
+    "file_path": "C:\\Users\\Jhosua\\SBARCHIVING_SYSTEM\\archives\\Ordinances\\Ordinance_No_2024_005.pdf",
+    "file_size": 1,
+    "tags": "general",
+    "uploaded_at": "2026-05-04 14:44:19",
+    "description": "Ordinance Document"
+  },
+  {
+    "id": 7,
+    "filename": "Ordinance_No_2024_012.pdf",
+    "file_type": "pdf",
+    "category": "Ordinances",
+    "file_path": "C:\\Users\\Jhosua\\SBARCHIVING_SYSTEM\\archives\\Ordinances\\Ordinance_No_2024_012.pdf",
+    "file_size": 1,
+    "tags": "general",
+    "uploaded_at": "2026-05-04 14:44:19",
+    "description": "Ordinance Document"
+  },
+  {
+    "id": 8,
+    "filename": "Ordinance_No_2024_020.pdf",
+    "file_type": "pdf",
+    "category": "Ordinances",
+    "file_path": "C:\\Users\\Jhosua\\SBARCHIVING_SYSTEM\\archives\\Ordinances\\Ordinance_No_2024_020.pdf",
+    "file_size": 1,
+    "tags": "general",
+    "uploaded_at": "2026-05-04 14:44:19",
+    "description": "Ordinance Document"
+  },
+  {
+    "id": 9,
+    "filename": "Ordinance_No_2024_028.pdf",
+    "file_type": "pdf",
+    "category": "Ordinances",
+    "file_path": "C:\\Users\\Jhosua\\SBARCHIVING_SYSTEM\\archives\\Ordinances\\Ordinance_No_2024_028.pdf",
+    "file_size": 1,
+    "tags": "general",
+    "uploaded_at": "2026-05-04 14:44:19",
+    "description": "Ordinance Document"
+  },
+  {
+    "id": 10,
+    "filename": "Ordinance_No_2024_035.pdf",
+    "file_type": "pdf",
+    "category": "Ordinances",
+    "file_path": "C:\\Users\\Jhosua\\SBARCHIVING_SYSTEM\\archives\\Ordinances\\Ordinance_No_2024_035.pdf",
+    "file_size": 1,
+    "tags": "general",
+    "uploaded_at": "2026-05-04 14:44:19",
+    "description": "Ordinance Document"
+  }
+]
