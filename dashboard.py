@@ -91,7 +91,6 @@ class Dashboard:
             ("👥", "Manage User", self.show_users),
             ("📋", "Resolutions", self.show_resolutions),
             ("📁", "Archive", self.show_archive),
-            ("💾", "Backup", self.show_backup),
             ("📊", "System Logs", self.show_logs),
             ("⚙️", "Settings", self.show_settings)
         ]
@@ -330,12 +329,6 @@ class Dashboard:
         
         from pages.archive import ArchivePage
         archive_page = ArchivePage(self.main_content, self.header_color, self.main_bg)
-
-    def show_backup(self):
-        self.header_title.config(text="Backup")
-        for widget in self.main_content.winfo_children():
-            widget.destroy()
-        tk.Label(self.main_content, text="Backup - Coming Soon", font=("Segoe UI", 24)).pack(expand=True)
 
     def show_logs(self):
         """Show system logs page"""
