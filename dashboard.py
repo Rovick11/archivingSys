@@ -387,7 +387,7 @@ class Dashboard:
             bg="#e9ecef"
         ).pack(side="right", padx=30)
 
-    # ---------------- STATS CARDS (walang value) ---------------- #
+    # ---------------- STATS CARDS ---------------- #
 
     def create_stats(self, parent):
         stats_frame = tk.Frame(parent, bg=self.main_bg)
